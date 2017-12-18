@@ -1,4 +1,7 @@
 {
+    "andres-montanez/magallanes": {
+        "version": "3.3.0"
+    },
     "doctrine/annotations": {
         "version": "1.0",
         "recipe": {
@@ -43,6 +46,9 @@
             "version": "2.0",
             "ref": "fe60ce509ef04a3f40da96e3979bc8d9b13b2372"
         }
+    },
+    "monolog/monolog": {
+        "version": "1.23.0"
     },
     "nelmio/cors-bundle": {
         "version": "1.5",
@@ -139,6 +145,9 @@
     },
     "symfony/polyfill-mbstring": {
         "version": "v1.6.0"
+    },
+    "symfony/process": {
+        "version": "v3.4.2"
     },
     "symfony/routing": {
         "version": "3.3",
