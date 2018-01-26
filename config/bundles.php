@@ -14,7 +14,5 @@ return [
     Symfony\Bundle\TwigBundle\TwigBundle::class => ['all' => true],
     Symfony\Bundle\SecurityBundle\SecurityBundle::class => ['all' => true],
     Symfony\Bundle\SwiftmailerBundle\SwiftmailerBundle::class => ['all' => true],
-    JMS\AopBundle\JMSAopBundle::class => ['all' => true],
-    JMS\DiExtraBundle\JMSDiExtraBundle::class => ['all' => true],
-    JMS\SecurityExtraBundle\JMSSecurityExtraBundle::class => ['all' => true],
+    Nelmio\ApiDocBundle\NelmioApiDocBundle::class => ['all' => true],
 ];
