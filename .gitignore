@@ -1,4 +1,7 @@
 
+# Magallanes local configuration
+.mage.yml
+
 ###> symfony/framework-bundle ###
 .env
 /public/bundles/

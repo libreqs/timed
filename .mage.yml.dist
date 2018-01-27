@@ -1,7 +1,7 @@
 magephp:
     environments:
         production:
-            user: julianadm
+            user: sshname
             branch: master
             from: ./
             host_path: /var/www/org.libreqs/live/
@@ -11,7 +11,7 @@ magephp:
                 - ./var/log/*
                 - ./web/app_dev.php
             hosts:
-                - klautspeicher.de
+                - hostname.org
             pre-deploy:
                 - git/update
                 - composer/install

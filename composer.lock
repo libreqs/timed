@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "95bea3aa916fddb0c9242b63adb81d3b",
+    "content-hash": "c333e7451694f4918abe05157011e0af",
     "packages": [
         {
             "name": "andres-montanez/magallanes",
@@ -12,17 +12,17 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/JulianStier/Magallanes.git",
-                "reference": "bb37b48c4ca7a495528bebdf7b6683a7f3b7e27e"
+                "reference": "e8f3c14c2d0260995aea9d87ce7278d84a483d9e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/JulianStier/Magallanes/zipball/bb37b48c4ca7a495528bebdf7b6683a7f3b7e27e",
-                "reference": "bb37b48c4ca7a495528bebdf7b6683a7f3b7e27e",
+                "url": "https://api.github.com/repos/JulianStier/Magallanes/zipball/e8f3c14c2d0260995aea9d87ce7278d84a483d9e",
+                "reference": "e8f3c14c2d0260995aea9d87ce7278d84a483d9e",
                 "shasum": ""
             },
             "require": {
                 "monolog/monolog": "^1.0",
-                "php": ">=5.5.9",
+                "php": "^7.1",
                 "symfony/console": "^4.0",
                 "symfony/event-dispatcher": "^4.0",
                 "symfony/filesystem": "^4.0",
@@ -41,7 +41,8 @@
             "extra": {
                 "branch-alias": {
                     "dev-master": "3.0.x-dev",
-                    "dev-nostromo": "3.x-dev"
+                    "dev-nostromo": "3.x-dev",
+                    "dev-develop": "4.x-dev"
                 }
             },
             "autoload": {
@@ -69,9 +70,9 @@
                 "deployment"
             ],
             "support": {
-                "source": "https://github.com/JulianStier/Magallanes/tree/nostromo"
+                "source": "https://github.com/JulianStier/Magallanes/tree/develop"
             },
-            "time": "2018-01-25T23:39:12+00:00"
+            "time": "2018-01-27T14:10:41+00:00"
         },
         {
             "name": "doctrine/annotations",

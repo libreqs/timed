@@ -4,7 +4,7 @@
     "require": {
         "php": "^7.1",
         "ext-iconv": "*",
-        "andres-montanez/magallanes": "dev-develop",
+        "andres-montanez/magallanes": "4.x-dev",
         "doctrine/doctrine-fixtures-bundle": "^3.0",
         "friendsofsymfony/rest-bundle": "^2.3",
         "jms/serializer-bundle": "^2.3",
